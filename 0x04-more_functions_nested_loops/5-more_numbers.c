@@ -27,6 +27,10 @@ void more_numbers(void)
 			repeat++;
 			limit = '4';
 			n = '0';
-			limit = '9';
 		}
+		_putchar('\n');
+		repeat = 0;
+		n = '0';
+		limit = '0';
 	}
+}
